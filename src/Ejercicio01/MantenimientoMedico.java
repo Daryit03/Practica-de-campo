@@ -6,21 +6,21 @@ import java.util.ArrayList;
 
 public class MantenimientoMedico {
     
-    private ArrayList<Medico> listaMedicos;
+    private ArrayList<Medico> listamed;
     
     //constructor
     public MantenimientoMedico(){
-        listaMedicos = new ArrayList<>(); //objeto del arraylist
+        listamed = new ArrayList<>(); //objeto del arraylist
     }
     
     //Metodos para manipular el arreglo
     
     public void agregarMedico(Medico medico){
-        listaMedicos.add(medico);
+        listamed.add(medico);
     }
     
     //Metodo que obtenga la lista de medicos
     public ArrayList<Medico> obtenerMedicos(){
-        return listaMedicos;
+        return listamed;
     }
 }

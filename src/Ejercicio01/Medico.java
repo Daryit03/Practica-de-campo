@@ -4,26 +4,26 @@ package Ejercicio01;
 public class Medico {
     
     //atributos encapsulados
-    private String nombre;
+    private String nombres;
     private String especialidad;
     private int edad;
     private String hospitalAsignado;
 
     //METODO CONSTRUCTOR
     public Medico(String nombre, String especialidad, int edad, String hospitalAsignado) {
-        this.nombre = nombre;
+        this.nombres = nombre;
         this.especialidad = especialidad;
         this.edad = edad;
         this.hospitalAsignado = hospitalAsignado;
     }
 
     //METODOS GET Y SET
-    public String getNombre() {
-        return nombre;
+    public String getNombres() {
+        return nombres;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
 
     public String getEspecialidad() {
