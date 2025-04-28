@@ -4,20 +4,20 @@ import java.util.ArrayList;
 
 public class MantenimientoAlumno {
     
-    private ArrayList<Alumno> alumnos;
+    private ArrayList<Alumno> ListaA;
     
     //constructor
     public MantenimientoAlumno(){
-        alumnos = new ArrayList<>(); //objeto de la array list 
+        ListaA = new ArrayList<>(); //objeto de la array list 
     }
     
     //Metodos para manipular el arreglo
     public void AgregarAlumno (Alumno alumno){
-        alumnos.add(alumno);
+        ListaA.add(alumno);
     }
     
     //Metodo que obtenga la lista de Alumnos
     public ArrayList<Alumno> ObtenerAlumno() {
-        return alumnos;
+        return ListaA;
     }
 }
