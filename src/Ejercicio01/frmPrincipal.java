@@ -189,7 +189,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
         for (Medico medico1 : lista) {
 
-            Object[] datoFila = {medico1.getNombre(),
+            Object[] datoFila = {medico1.getNombres(),
                 medico1.getEspecialidad(),
                 medico1.getEdad(),
                 medico1.getHospitalAsignado()};
