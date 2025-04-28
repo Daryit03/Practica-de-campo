@@ -8,7 +8,7 @@ public class Alumno {
     private double T2;
     private double T3;
     private double examenFinal;
-    private double promedioFinal;
+    private double proFinal;
     private String situacion;
     private double laboratorios;
     private double puntosAdicionalesOracle;
