@@ -8,7 +8,7 @@ public class Alumno {
     private double T2;
     private double T3;
     private double examenFinal;
-    private double promedioFinal;
+    private double proFinal;
     private String situacion;
     private double laboratorio;
     private double puntosAdicionalesOracle;
@@ -65,12 +65,12 @@ public class Alumno {
         this.examenFinal = examenFinal;
     }
 
-    public double getPromedioFinal() {
-        return promedioFinal;
+    public double getProFinal() {
+        return proFinal;
     }
 
-    public void setPromedioFinal(double promedioFinal) {
-        this.promedioFinal = promedioFinal;
+    public void setProFinal(double proFinal) {
+        this.proFinal = proFinal;
     }
 
     public String getSituacion() {
